@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/images/fav.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shinra-Tensei</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #d2d2d2;
+        background-image: repeating-linear-gradient(
+            to right,
+            transparent 0 100px,
+            #25283b22 100px 101px
+          ),
+          repeating-linear-gradient(
+            to bottom,
+            transparent 0 100px,
+            #25283b22 100px 101px
+          );
+      }
+
+      body::before {
+        position: absolute;
+        width: min(1400px, 90vw);
+        top: 10%;
+        left: 50%;
+        height: 90%;
+        transform: translateX(-50%);
+        content: "";
+        background-image: url(images/bg.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        pointer-events: none;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1e88a0782b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!--navbar-->
+      <nav class="nav-bar">
+        <div class="logo">SHINRA TENSEI</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#allproducts">All Products</a></li>
+            <li><a href="#fig-head">Action-Figures</a></li>
+            <li><a href="#track">Track your order</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <i
+            id="user"
+            class="fa-sharp fa-regular fa-xl fa-user"
+            style="color: #ffffff"
+          ></i>
+        </div>
+      </nav>
+    </header>
+    <!--section-->
+    <div>
+      <div class="banner">
+        <div class="slider" style="--quantity: 10">
+          <div class="item" style="--position: 1">
+            <img src="/images/1.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 2">
+            <img src="/images/2.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 3">
+            <img src="/images/3.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 4">
+            <img src="/images/4.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 5">
+            <img src="/images/5.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 6">
+            <img src="/images/6.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 7">
+            <img src="/images/7.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 8">
+            <img src="/images/8.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 9">
+            <img src="/images/9.jpg" alt="" />
+          </div>
+          <div class="item" style="--position: 10">
+            <img src="/images/10.jpg" alt="" />
+          </div>
+        </div>
+        <div class="content">
+          <h1 data-content="Anime">Anime</h1>
+          <div class="author">
+            <h2>Anime</h2>
+            <p><b>MERCHANDISE</b></p>
+            <p>Nothing like you've ever seen.</p>
+          </div>
+          <div class="model"></div>
+        </div>
+      </div>
+    </div>
+    <!--All products-->
+    <div id="allproducts">
+      <div class="heading">All Products</div>
+      <div class="container">
+        <div class="item">
+          <li><img src="/images-2/swords.png" />Swords</li>
+        </div>
+        <div class="item">
+          <li><img src="/images-2/rings.png" />Rings</li>
+        </div>
+        <div class="item">
+          <li><img src="/images-2/action-figure.png" />Action-figures</li>
+        </div>
+        <div class="item">
+          <li><img src="/images-2/anime-hats.png" />Hats</li>
+        </div>
+        <div class="item">
+          <li><img src="/images-2/kimono.png" />Kimono</li>
+        </div>
+      </div>
+    </div>
+    <!--action-figures-->
+    <div id="fig-head" class="fig-head"><h3>Action-Figures</h3></div>
+    <div class="fig-slider">
+      <div class="fig-track">
+        <div class="fig-slide"><img src="/images-3/1.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/2.jpeg" /></div>
+        <div class="fig-slide"><img src="/images-3/3.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/4.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/5.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/6.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/7.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/8.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/9.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/10.jpg" /></div>
+        <!---->
+        <div class="fig-slide"><img src="/images-3/1.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/2.jpeg" /></div>
+        <div class="fig-slide"><img src="/images-3/3.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/4.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/5.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/6.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/7.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/8.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/9.jpg" /></div>
+        <div class="fig-slide"><img src="/images-3/10.jpg" /></div>
+      </div>
+    </div>
+    <!--order tracking-->
+    <div id="track"
+      class="bg"
+      style="background-image: linear-gradient(to bottom, black, white)"
+    >
+      <span class="track-head">Track Your Order</span>
+      <div class="input-container">
+        <input
+          type="text"
+          name="text"
+          class="input"
+          placeholder="Enter Your Id.."
+        />
+        <span class="icon">
+          <svg
+            width="19px"
+            height="19px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                opacity="1"
+                d="M14 5H20"
+                stroke="#000"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                opacity="1"
+                d="M14 8H17"
+                stroke="#000"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2"
+                stroke="#000"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <path
+                opacity="1"
+                d="M22 22L20 20"
+                stroke="#000"
+                stroke-width="3.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </g>
+          </svg>
+        </span>
+      </div>
+    </div>
+    <!--contact-->
+    <div id="contact" class="contact">
+      <span class="contact-head">Contact</span>
+      <div class="form-card1">
+        <div class="form-card2">
+          <form class="form">
+            <p class="form-heading">Contact</p>
+            <div class="form-field">
+              <input
+                required=""
+                placeholder="Name"
+                class="input-field"
+                type="text"
+              />
+            </div>
+            <div class="form-field">
+              <input
+                required=""
+                placeholder="Email"
+                class="input-field"
+                type="email"
+              />
+            </div>
+            <div class="form-field">
+              <input
+                required=""
+                placeholder="Subject"
+                class="input-field"
+                type="text"
+              />
+            </div>
+            <div class="form-field">
+              <textarea
+                required=""
+                placeholder="Message"
+                cols="30"
+                rows="3"
+                class="input-field"
+              ></textarea>
+            </div>
+            <button class="sendMessage-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <img src="/images-3/rinnegan.png" />
+      <h2 style="color: white; font-weight: 600">Shinra Tensei</h2>
+      <ul class="social_footer_ul">
+        <li>
+          <a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="http://gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </li>
+        <li>
+          <a href="http://linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+    </div>
+    
+  </body>
+</html>
