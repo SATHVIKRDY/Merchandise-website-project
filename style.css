@@ -54,6 +54,57 @@ a:hover {
   font-weight: 800;
 }
 
+.openbtn {
+  display: none;
+}
+
+.sidepanel {
+  width: 0;
+  position: absolute;
+  z-index: 3;
+  height: 250px;
+  top: 0;
+  right: 0;
+  border: 2px solid white;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
 .banner {
   width: 100%;
   height: 100vh;
@@ -197,6 +248,17 @@ a:hover {
 }
 /*action-figures*/
 
+.fig-head {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 0px;
+  text-shadow: 2px 5px grey;
+}
+
 .fig-slider {
   height: 450px;
   margin: auto;
@@ -210,20 +272,9 @@ a:hover {
   background-size: cover;
 }
 
-.fig-head {
-  font-size: 2rem;
-  font-weight: bold;
-  font-family: "poppins", sans-serif;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 100px 0px 0px;
-  text-shadow: 2px 5px grey;
-}
-
 .fig-track {
   display: flex;
-  width: calc(250px * 20);
+  width: calc(150px * 20);
   animation: scroll 40s linear infinite;
 }
 
@@ -241,7 +292,7 @@ a:hover {
 }
 
 .fig-slide {
-  width: calc(250px * 20);
+  width: calc(150px * 20);
   display: flex;
   align-items: center;
 }
